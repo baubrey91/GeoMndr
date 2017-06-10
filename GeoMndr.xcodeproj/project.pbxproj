@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067A99D49D2BF9B7D20023EB /* Pods_GeoMndr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C9FB3AC985D7905193D6ED /* Pods_GeoMndr.framework */; };
+		CA8042BF1EE2275B0073E7EE /* YALNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */; };
+		CA8042C61EE22A060073E7EE /* ContextMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8042C51EE22A060073E7EE /* ContextMenuCell.swift */; };
+		CA8042C81EE22A200073E7EE /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8042C71EE22A200073E7EE /* ContextMenuCell.xib */; };
+		CAB07B001EEB64420039952C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB07AFF1EEB64420039952C /* MapKit.framework */; };
+		CAB07B021EEB73FF0039952C /* GeotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */; };
+		CAB07B041EEB74310039952C /* AddGeotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */; };
+		CAB07B061EEB744F0039952C /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B051EEB744F0039952C /* Geotification.swift */; };
+		CAB07B081EEB746D0039952C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B071EEB746D0039952C /* Utilities.swift */; };
+		CAB112DA1EE2232C0085A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB112D91EE2232C0085A20C /* AppDelegate.swift */; };
+		CAB112DC1EE2232C0085A20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB112DB1EE2232C0085A20C /* ViewController.swift */; };
+		CAB112DF1EE2232C0085A20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB112DD1EE2232C0085A20C /* Main.storyboard */; };
+		CAB112E11EE2232C0085A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB112E01EE2232C0085A20C /* Assets.xcassets */; };
+		CAB112E41EE2232C0085A20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB112E21EE2232C0085A20C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15A0FC012AB0FA56788C097C /* Pods-GeoMndr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoMndr.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr.release.xcconfig"; sourceTree = "<group>"; };
+		CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YALNavigationBar.swift; sourceTree = "<group>"; };
+		CA8042C51EE22A060073E7EE /* ContextMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContextMenuCell.swift; path = ../../../Desktop/AppStoreApps/ContextMenuCell.swift; sourceTree = "<group>"; };
+		CA8042C71EE22A200073E7EE /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContextMenuCell.xib; path = ../../../Desktop/AppStoreApps/ContextMenuCell.xib; sourceTree = "<group>"; };
+		CAB07AFF1EEB64420039952C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeotificationViewController.swift; sourceTree = "<group>"; };
+		CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeotificationViewController.swift; sourceTree = "<group>"; };
+		CAB07B051EEB744F0039952C /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		CAB07B071EEB746D0039952C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CAB112D61EE2232C0085A20C /* GeoMndr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMndr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB112D91EE2232C0085A20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB112DB1EE2232C0085A20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB112DE1EE2232C0085A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB112E01EE2232C0085A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB112E31EE2232C0085A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB112E51EE2232C0085A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA9750A7771E7B244C5BA3C /* Pods-GeoMndr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoMndr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C9FB3AC985D7905193D6ED /* Pods_GeoMndr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoMndr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB112D31EE2232C0085A20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB07B001EEB64420039952C /* MapKit.framework in Frameworks */,
+				067A99D49D2BF9B7D20023EB /* Pods_GeoMndr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B628F40462DBC93618AECF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB07AFF1EEB64420039952C /* MapKit.framework */,
+				F9C9FB3AC985D7905193D6ED /* Pods_GeoMndr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9943E5559EF80BC33328E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA9750A7771E7B244C5BA3C /* Pods-GeoMndr.debug.xcconfig */,
+				15A0FC012AB0FA56788C097C /* Pods-GeoMndr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA8042C21EE2286E0073E7EE /* ContextMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA8042C51EE22A060073E7EE /* ContextMenuCell.swift */,
+				CA8042C71EE22A200073E7EE /* ContextMenuCell.xib */,
+			);
+			name = ContextMenuCell;
+			path = "../../../../Downloads/Objective-C-ContextMenu-in-Swift-master 2/SwiftContextMenu";
+			sourceTree = "<group>";
+		};
+		CAB112CD1EE2232C0085A20C = {
+			isa = PBXGroup;
+			children = (
+				CAB112D81EE2232C0085A20C /* GeoMndr */,
+				CAB112D71EE2232C0085A20C /* Products */,
+				C9943E5559EF80BC33328E8A /* Pods */,
+				B628F40462DBC93618AECF7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB112D71EE2232C0085A20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB112D61EE2232C0085A20C /* GeoMndr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB112D81EE2232C0085A20C /* GeoMndr */ = {
+			isa = PBXGroup;
+			children = (
+				CA8042C21EE2286E0073E7EE /* ContextMenuCell */,
+				CAB112D91EE2232C0085A20C /* AppDelegate.swift */,
+				CAB112DB1EE2232C0085A20C /* ViewController.swift */,
+				CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */,
+				CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */,
+				CAB07B051EEB744F0039952C /* Geotification.swift */,
+				CAB07B071EEB746D0039952C /* Utilities.swift */,
+				CAB112DD1EE2232C0085A20C /* Main.storyboard */,
+				CAB112E01EE2232C0085A20C /* Assets.xcassets */,
+				CAB112E21EE2232C0085A20C /* LaunchScreen.storyboard */,
+				CAB112E51EE2232C0085A20C /* Info.plist */,
+				CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */,
+			);
+			path = GeoMndr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB112D51EE2232C0085A20C /* GeoMndr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB112E81EE2232C0085A20C /* Build configuration list for PBXNativeTarget "GeoMndr" */;
+			buildPhases = (
+				49148E41ED9AD138F3423252 /* [CP] Check Pods Manifest.lock */,
+				CAB112D21EE2232C0085A20C /* Sources */,
+				CAB112D31EE2232C0085A20C /* Frameworks */,
+				CAB112D41EE2232C0085A20C /* Resources */,
+				03587276B0ACF6C9B7193CDA /* [CP] Embed Pods Frameworks */,
+				45B791B96443322653D88376 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoMndr;
+			productName = GeoMndr;
+			productReference = CAB112D61EE2232C0085A20C /* GeoMndr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB112CE1EE2232C0085A20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BrandonAubrey;
+				TargetAttributes = {
+					CAB112D51EE2232C0085A20C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68W2B53UFP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAB112D11EE2232C0085A20C /* Build configuration list for PBXProject "GeoMndr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB112CD1EE2232C0085A20C;
+			productRefGroup = CAB112D71EE2232C0085A20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB112D51EE2232C0085A20C /* GeoMndr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB112D41EE2232C0085A20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB112E41EE2232C0085A20C /* LaunchScreen.storyboard in Resources */,
+				CA8042C81EE22A200073E7EE /* ContextMenuCell.xib in Resources */,
+				CAB112E11EE2232C0085A20C /* Assets.xcassets in Resources */,
+				CAB112DF1EE2232C0085A20C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03587276B0ACF6C9B7193CDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B791B96443322653D88376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49148E41ED9AD138F3423252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB112D21EE2232C0085A20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB07B021EEB73FF0039952C /* GeotificationViewController.swift in Sources */,
+				CA8042BF1EE2275B0073E7EE /* YALNavigationBar.swift in Sources */,
+				CAB07B061EEB744F0039952C /* Geotification.swift in Sources */,
+				CAB112DC1EE2232C0085A20C /* ViewController.swift in Sources */,
+				CA8042C61EE22A060073E7EE /* ContextMenuCell.swift in Sources */,
+				CAB07B081EEB746D0039952C /* Utilities.swift in Sources */,
+				CAB07B041EEB74310039952C /* AddGeotificationViewController.swift in Sources */,
+				CAB112DA1EE2232C0085A20C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB112DD1EE2232C0085A20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB112DE1EE2232C0085A20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB112E21EE2232C0085A20C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB112E31EE2232C0085A20C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB112E61EE2232C0085A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB112E71EE2232C0085A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB112E91EE2232C0085A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA9750A7771E7B244C5BA3C /* Pods-GeoMndr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = GeoMndr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.GeoMndr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAB112EA1EE2232C0085A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A0FC012AB0FA56788C097C /* Pods-GeoMndr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68W2B53UFP;
+				INFOPLIST_FILE = GeoMndr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.GeoMndr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB112D11EE2232C0085A20C /* Build configuration list for PBXProject "GeoMndr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB112E61EE2232C0085A20C /* Debug */,
+				CAB112E71EE2232C0085A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB112E81EE2232C0085A20C /* Build configuration list for PBXNativeTarget "GeoMndr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB112E91EE2232C0085A20C /* Debug */,
+				CAB112EA1EE2232C0085A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB112CE1EE2232C0085A20C /* Project object */;
+}
