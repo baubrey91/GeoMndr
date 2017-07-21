@@ -1,5 +1,5 @@
 //
-//  AddGeotificationViewController.swift
+//  AddGeoMndrViewController.swift
 //  GeoMndr
 //
 //  Created by Brandon on 6/9/17.

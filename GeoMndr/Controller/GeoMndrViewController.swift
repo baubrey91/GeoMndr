@@ -1,5 +1,5 @@
 //
-//  GeotificationViewController.swift
+//  GeoMndrViewController.swift
 //  GeoMndr
 //
 //  Created by Brandon on 6/9/17.
@@ -75,7 +75,7 @@ class GeoMndrViewController: UIViewController, UITableViewDelegate, UITableViewD
         UserDefaults.standard.set(items, forKey: PreferencesKeys.savedItems)
     }
     
-    // MARK: Functions that update the model/associated views with geotification changes
+    // MARK: Functions that update the model/associated views with geoMndr changes
     func remove(geoMndr: GeoMndr) {
         if let indexInArray = geoMndrs.index(of: geoMndr) {
             geoMndrs.remove(at: indexInArray)
@@ -95,7 +95,7 @@ class GeoMndrViewController: UIViewController, UITableViewDelegate, UITableViewD
             return
         }
         if CLLocationManager.authorizationStatus() != .authorizedAlways{
-            showAlert(withTitle:"Warning", message: "Your geoMndr is saved but will only be activated once you grant Geotify permission to access the device location.")
+            showAlert(withTitle:"Warning", message: "Your geoMndr is saved but will only be activated once you grant GeoMndr permission to access the device location.")
         }
         
         let region = self.region(withGeoMndr: geoMndr)
@@ -210,7 +210,7 @@ class GeoMndrViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
 }
 
-// MARK: AddGeotificationViewControllerDelegate
+// MARK: AddGeoMndrViewControllerDelegate
 extension GeoMndrViewController: AddGeoMndrViewControllerDelegate {
     
     func addGeoMndrViewController(controller: AddGeoMndrViewController, didAddCoordinate coordinate: CLLocationCoordinate2D, radius: Double, identifier: String, note: String, eventType: EventType) {

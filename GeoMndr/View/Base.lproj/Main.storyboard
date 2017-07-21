@@ -104,7 +104,7 @@
             </objects>
             <point key="canvasLocation" x="340" y="-76"/>
         </scene>
-        <!--Add Geotification-->
+        <!--Add GeoMndr-->
         <scene sceneID="mha-dW-tnO">
             <objects>
                 <tableViewController id="ngK-N9-H3R" customClass="AddGeoMndrViewController" customModule="GeoMndr" customModuleProvider="target" sceneMemberID="viewController">
@@ -233,7 +233,7 @@
                             <outlet property="delegate" destination="ngK-N9-H3R" id="IWJ-T4-76r"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Add Geotification" id="7bE-U6-J8Z">
+                    <navigationItem key="navigationItem" title="Add GeoMndr" id="7bE-U6-J8Z">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="yaN-U8-gvs">
                             <connections>
                                 <action selector="onCancelWithSender:" destination="ngK-N9-H3R" id="DoW-jl-jVh"/>

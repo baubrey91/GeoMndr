@@ -75,7 +75,7 @@ extension MapViewController: MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        // Delete geotification
+        // Delete geoMndr
         let geoMndr = view.annotation as! GeoMndr
         delegate?.deleteGeoMndr(geoMndr: geoMndr)
         mapView.removeAnnotation(geoMndr)
