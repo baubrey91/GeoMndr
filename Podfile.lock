@@ -1,12 +1,15 @@
 PODS:
+  - AASegmentedControl (0.1.0)
   - ContextMenu.iOS (1.1.0)
 
 DEPENDENCIES:
+  - AASegmentedControl
   - ContextMenu.iOS (~> 1.1.0)
 
 SPEC CHECKSUMS:
+  AASegmentedControl: ad004106e9c30f6dd5a5dd685c5d3c3db40eaf8b
   ContextMenu.iOS: 7f3b63915e660f51aada2c4285c40a837b2c9737
 
-PODFILE CHECKSUM: 205d4c0065d63e0e2176e9348f4ac53b423863e7
+PODFILE CHECKSUM: 6dfb05c0dc7fc1c79f817375a04a53138e35410b
 
 COCOAPODS: 1.2.1

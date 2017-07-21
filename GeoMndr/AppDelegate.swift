@@ -40,10 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func note(fromegionIdentifier identifier: String) -> String? {
         let savedItems = UserDefaults.standard.array(forKey: PreferencesKeys.savedItems) as? [NSData]
-        let geotifications = savedItems?.map { NSKeyedUnarchiver.unarchiveObject(with: $0 as Data) as? Geotification }
-        let index = geotifications?.index { $0?.identifier == identifier }
-        return index != nil ? geotifications?[index!]?.note : nil
-        
+        let geoMndrs = savedItems?.map { NSKeyedUnarchiver.unarchiveObject(with: $0 as Data) as? GeoMndr }
+        let index = geoMndrs?.index { $0?.identifier == identifier }
+        return index != nil ? geoMndrs?[index!]?.note : nil
     }
 }
 

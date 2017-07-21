@@ -8,38 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		067A99D49D2BF9B7D20023EB /* Pods_GeoMndr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C9FB3AC985D7905193D6ED /* Pods_GeoMndr.framework */; };
+		CA5F1FA11F1974AF00AD82C1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F1FA01F1974AF00AD82C1 /* MapViewController.swift */; };
 		CA8042BF1EE2275B0073E7EE /* YALNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */; };
 		CA8042C61EE22A060073E7EE /* ContextMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8042C51EE22A060073E7EE /* ContextMenuCell.swift */; };
 		CA8042C81EE22A200073E7EE /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8042C71EE22A200073E7EE /* ContextMenuCell.xib */; };
 		CAB07B001EEB64420039952C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB07AFF1EEB64420039952C /* MapKit.framework */; };
-		CAB07B021EEB73FF0039952C /* GeotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */; };
-		CAB07B041EEB74310039952C /* AddGeotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */; };
-		CAB07B061EEB744F0039952C /* Geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B051EEB744F0039952C /* Geotification.swift */; };
+		CAB07B021EEB73FF0039952C /* GeoMndrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B011EEB73FF0039952C /* GeoMndrViewController.swift */; };
+		CAB07B041EEB74310039952C /* AddGeoMndrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B031EEB74310039952C /* AddGeoMndrViewController.swift */; };
+		CAB07B061EEB744F0039952C /* GeoMndr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B051EEB744F0039952C /* GeoMndr.swift */; };
 		CAB07B081EEB746D0039952C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07B071EEB746D0039952C /* Utilities.swift */; };
 		CAB112DA1EE2232C0085A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB112D91EE2232C0085A20C /* AppDelegate.swift */; };
-		CAB112DC1EE2232C0085A20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB112DB1EE2232C0085A20C /* ViewController.swift */; };
 		CAB112DF1EE2232C0085A20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB112DD1EE2232C0085A20C /* Main.storyboard */; };
 		CAB112E11EE2232C0085A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB112E01EE2232C0085A20C /* Assets.xcassets */; };
 		CAB112E41EE2232C0085A20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB112E21EE2232C0085A20C /* LaunchScreen.storyboard */; };
+		CAD40D4D1F21705700CEE903 /* TestLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CAD40D4C1F21705700CEE903 /* TestLocations.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15A0FC012AB0FA56788C097C /* Pods-GeoMndr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoMndr.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr.release.xcconfig"; sourceTree = "<group>"; };
+		CA5F1FA01F1974AF00AD82C1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YALNavigationBar.swift; sourceTree = "<group>"; };
 		CA8042C51EE22A060073E7EE /* ContextMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContextMenuCell.swift; path = ../../../Desktop/AppStoreApps/ContextMenuCell.swift; sourceTree = "<group>"; };
 		CA8042C71EE22A200073E7EE /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContextMenuCell.xib; path = ../../../Desktop/AppStoreApps/ContextMenuCell.xib; sourceTree = "<group>"; };
 		CAB07AFF1EEB64420039952C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeotificationViewController.swift; sourceTree = "<group>"; };
-		CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeotificationViewController.swift; sourceTree = "<group>"; };
-		CAB07B051EEB744F0039952C /* Geotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geotification.swift; sourceTree = "<group>"; };
+		CAB07B011EEB73FF0039952C /* GeoMndrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoMndrViewController.swift; sourceTree = "<group>"; };
+		CAB07B031EEB74310039952C /* AddGeoMndrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGeoMndrViewController.swift; sourceTree = "<group>"; };
+		CAB07B051EEB744F0039952C /* GeoMndr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoMndr.swift; sourceTree = "<group>"; };
 		CAB07B071EEB746D0039952C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		CAB112D61EE2232C0085A20C /* GeoMndr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMndr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB112D91EE2232C0085A20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAB112DB1EE2232C0085A20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAB112DE1EE2232C0085A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAB112E01EE2232C0085A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAB112E31EE2232C0085A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAB112E51EE2232C0085A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD40D4C1F21705700CEE903 /* TestLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TestLocations.gpx; sourceTree = "<group>"; };
 		DAA9750A7771E7B244C5BA3C /* Pods-GeoMndr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoMndr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoMndr/Pods-GeoMndr.debug.xcconfig"; sourceTree = "<group>"; };
 		F9C9FB3AC985D7905193D6ED /* Pods_GeoMndr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoMndr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,20 +108,45 @@
 		CAB112D81EE2232C0085A20C /* GeoMndr */ = {
 			isa = PBXGroup;
 			children = (
+				CAEE75AB1F202A1A00A18260 /* Controller */,
+				CAEE75AA1F202A1400A18260 /* View */,
+				CAEE75A91F202A0E00A18260 /* Model */,
 				CA8042C21EE2286E0073E7EE /* ContextMenuCell */,
 				CAB112D91EE2232C0085A20C /* AppDelegate.swift */,
-				CAB112DB1EE2232C0085A20C /* ViewController.swift */,
-				CAB07B011EEB73FF0039952C /* GeotificationViewController.swift */,
-				CAB07B031EEB74310039952C /* AddGeotificationViewController.swift */,
-				CAB07B051EEB744F0039952C /* Geotification.swift */,
 				CAB07B071EEB746D0039952C /* Utilities.swift */,
-				CAB112DD1EE2232C0085A20C /* Main.storyboard */,
 				CAB112E01EE2232C0085A20C /* Assets.xcassets */,
+				CAD40D4C1F21705700CEE903 /* TestLocations.gpx */,
 				CAB112E21EE2232C0085A20C /* LaunchScreen.storyboard */,
 				CAB112E51EE2232C0085A20C /* Info.plist */,
-				CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */,
 			);
 			path = GeoMndr;
+			sourceTree = "<group>";
+		};
+		CAEE75A91F202A0E00A18260 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAB07B051EEB744F0039952C /* GeoMndr.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAEE75AA1F202A1400A18260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAB112DD1EE2232C0085A20C /* Main.storyboard */,
+				CA8042BE1EE2275B0073E7EE /* YALNavigationBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAEE75AB1F202A1A00A18260 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAB07B031EEB74310039952C /* AddGeoMndrViewController.swift */,
+				CAB07B011EEB73FF0039952C /* GeoMndrViewController.swift */,
+				CA5F1FA01F1974AF00AD82C1 /* MapViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +215,7 @@
 				CAB112E41EE2232C0085A20C /* LaunchScreen.storyboard in Resources */,
 				CA8042C81EE22A200073E7EE /* ContextMenuCell.xib in Resources */,
 				CAB112E11EE2232C0085A20C /* Assets.xcassets in Resources */,
+				CAD40D4D1F21705700CEE903 /* TestLocations.gpx in Resources */,
 				CAB112DF1EE2232C0085A20C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,13 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB07B021EEB73FF0039952C /* GeotificationViewController.swift in Sources */,
+				CAB07B021EEB73FF0039952C /* GeoMndrViewController.swift in Sources */,
 				CA8042BF1EE2275B0073E7EE /* YALNavigationBar.swift in Sources */,
-				CAB07B061EEB744F0039952C /* Geotification.swift in Sources */,
-				CAB112DC1EE2232C0085A20C /* ViewController.swift in Sources */,
+				CAB07B061EEB744F0039952C /* GeoMndr.swift in Sources */,
+				CA5F1FA11F1974AF00AD82C1 /* MapViewController.swift in Sources */,
 				CA8042C61EE22A060073E7EE /* ContextMenuCell.swift in Sources */,
 				CAB07B081EEB746D0039952C /* Utilities.swift in Sources */,
-				CAB07B041EEB74310039952C /* AddGeotificationViewController.swift in Sources */,
+				CAB07B041EEB74310039952C /* AddGeoMndrViewController.swift in Sources */,
 				CAB112DA1EE2232C0085A20C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68W2B53UFP;
 				INFOPLIST_FILE = GeoMndr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.GeoMndr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68W2B53UFP;
 				INFOPLIST_FILE = GeoMndr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrandonAubrey.GeoMndr;
 				PRODUCT_NAME = "$(TARGET_NAME)";

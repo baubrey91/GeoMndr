@@ -7,5 +7,6 @@ target 'GeoMndr' do
 
   # Pods for GeoMndr
 	pod 'ContextMenu.iOS', '~> 1.1.0'
+    pod 'AASegmentedControl'
 
 end
